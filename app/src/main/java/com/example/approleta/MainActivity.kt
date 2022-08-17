@@ -13,11 +13,17 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // identifica o componente pelo seu id
         val btnRodarNumero = findViewById<Button>(R.id.button)
 
+        // adiciona o listener de click
         btnRodarNumero.setOnClickListener{
-            var texto = findViewById<TextView>(R.id.txtSorteio)
-            var numeroSorteado = Random().nextInt(11)
+            val texto = findViewById<TextView>(R.id.txtSorteio)
+
+            // gera um número aleatório de 0 a 10
+            val numeroSorteado = Random().nextInt(11)
+
+            // define um novo texto para TextView
             texto.text = "Número sorteado é: $numeroSorteado"
         }
     }
