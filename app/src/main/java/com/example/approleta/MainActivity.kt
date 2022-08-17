@@ -20,8 +20,8 @@ class MainActivity : AppCompatActivity() {
         btnRodarNumero.setOnClickListener{
             val texto = findViewById<TextView>(R.id.txtSorteio)
 
-            // gera um número aleatório de 0 a 10
-            val numeroSorteado = Random().nextInt(11)
+            // gera um número aleatório de 0 a 1
+            val numeroSorteado = Random().nextInt(2)
 
             // define um novo texto para TextView
             texto.text = "Número sorteado é: $numeroSorteado"
