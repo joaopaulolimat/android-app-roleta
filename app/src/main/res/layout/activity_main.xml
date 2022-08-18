@@ -13,8 +13,10 @@
         android:text="@string/escolha_um_n_mero_de_0_a_1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.108" />
 
     <Button
         android:id="@+id/button"
@@ -22,9 +24,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="@string/rodar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtEnunciado" />
+        app:layout_constraintEnd_toEndOf="@+id/txtNumero"
+        app:layout_constraintStart_toStartOf="@+id/txtNumero"
+        app:layout_constraintTop_toBottomOf="@+id/txtNumero" />
 
     <TextView
         android:id="@+id/txtSorteio"
@@ -32,8 +34,22 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="@string/nenhum_n_mero_sorteado"
+        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintStart_toStartOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <EditText
+        android:id="@+id/txtNumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/insira_um_n_mero"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/txtEnunciado" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">App Roleta</string>
-    <string name="escolha_um_n_mero_de_0_a_1">Escolha um número de 0 a 1</string>
+    <string name="escolha_um_n_mero_de_0_a_1">Escolha um número de 0 a 10</string>
     <string name="button">Button</string>
     <string name="nenhum_n_mero_sorteado">Nenhum número sorteado</string>
     <string name="rodar">Rodar</string>
+    <string name="insira_um_n_mero">Insira um número</string>
 </resources>
