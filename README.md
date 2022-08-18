@@ -1,10 +1,10 @@
-# App Calculadora de Combustíveis
-version code : 1.0.0
+# App Roleta
+version code : 1.1.0
 
-version name: 1
+version name: 2
 
 # Introdução
 Aplicativo que gera um número aleatório.
 
 # Imagem App
-![Screenshot_1660777067](https://user-images.githubusercontent.com/43394727/185258068-126f016c-bdea-4fbb-b8db-a613a7dce2dc.png)
+![Screenshot_1660782134](https://user-images.githubusercontent.com/43394727/185266486-e6230be5-a332-45aa-9cf8-a779073c0455.png)
